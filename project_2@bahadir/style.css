@@ -1,0 +1,216 @@
+* {
+box-sizing : border-box;
+font-family : "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+header {
+position : absolute;
+width : 100%;
+height : 260px;
+left : 0;
+margin-left : 0;
+padding : 0;
+border : 0;
+top : 0;
+background-color : #bf20b3;
+}
+#head {
+background : none;
+width : 100%;
+padding : 1%;
+height : 250px;
+position : absolute;
+top : 0;
+left : 0;
+margin : 0;
+border : #1f00ae;
+border-bottom-width : thick;
+background-image : url("images/sunburst.jpg");
+}
+#left_small {
+font-family : "Script MT Bold";
+color : darkblue;
+font-size : 15px;
+background : none;
+text-align : center;
+}
+#left_top {
+font-family : "Script MT Bold";
+width : 100px;
+height : 60px;
+font-weight : 900;
+font-size-adjust : none;
+color : cornflowerblue;
+font-size : 28px;
+letter-spacing : 0.1em;
+left : 150px;
+top : 100px;
+}
+body {
+background-image : url("images/blue1.jpg");
+background-color : #EC9F78;
+max-width : 100%;
+padding-right : 5%;
+padding-left : 5%;
+left : 0;
+}
+.text {
+padding-left : 13px;
+padding-right : 13px;
+padding-top : 5px;
+padding-bottom : 5px;
+}
+.text1 {
+width : 223px;
+position : absolute;
+top : 10px;
+font: oblique bold 24px/1.3em jura, sans-serif;
+height : 40px;
+left : 35px;
+background-color : crimson;
+padding-bottom : 0;
+}
+#banner {
+text-align : center;
+white-space : nowrap;
+width : 900px;
+height : 30px;
+left : 270px;
+position : absolute;
+top : 90px;
+}
+a:link, a:visited {
+color : whitesmoke;
+text-decoration : none;
+}
+
+ul#menu li a:link, ul#menu li a:visited {
+color : white;
+text-decoration : none;
+display : inline-block;
+padding : 5px 15px;
+border-radius : 25px;
+text-align : center;
+background-color : darkblue;
+text-decoration : none;
+}
+ul#menu li a:hover, ul#menu li a:active {
+background-color :crimson;
+text-decoration : whitesmoke;
+}
+#menu li {
+white-space : nowrap;
+background : inherit;
+font : normal normal 700 20px/1.4em jura, sans-serif;
+transition : color 0.4s 0s ease;
+color : aqua;
+display : inline;
+padding : 10px;
+}
+#menu {
+margin : 8px;
+padding : 1px;
+background : none;
+}
+.crop {
+width : 300px;
+height : 770px;
+left : 30px;
+overflow : hidden;
+position : relative;
+display : block;
+top : 60px;
+}
+.crop img {
+background-position : center;
+background-size : cover;
+height : 700px;
+display : block;
+}
+.images {
+display : flex;
+align-items : flex-start;
+background : none;
+width : 300px;
+position : absolute;
+top : 60px;
+height : 770px;
+left : 55px;
+}
+img {
+max-height : 100%;
+display : block;
+padding : 5px;
+background : none;
+border-radius : 15%;
+border-width : 35px;
+border-color : #06056f;
+}
+h1 {
+font-family : 'fantasy';
+width : 80px;
+}
+h2 {
+left : 90px;
+width : 120px;
+text-align : center;
+font-size : medium;
+font-family : cursive;
+color : blueviolet;
+}
+h3 {
+color : whitesmoke;
+font-size : 20px;
+width : 60px;
+height : 25px;
+margin-top : 5px;
+margin-left : 30px;
+}
+.font1 {
+font : normal normal 12px/1.3em "Open Sans',sans-serif";
+font-size : 20px;
+text-align : justify;
+color : #FFBEB3;
+}
+footer {
+position : absolute;
+width : 100%;
+height : 260px;
+left : 0;
+top : 1160px;
+margin-left : 0;
+padding : 0;
+border : 0;
+background-color : #bf20b3;
+}
+#foot {
+width : 100%;
+padding : 1%;
+height : 260px;
+position : absolute;
+top : 0;
+left : 0;
+margin : 0;
+background-image : url("images/sunburst.jpg");
+}
+.small {
+width : 50px;
+height : 50px;
+object-fit : cover;
+}
+#scroll {
+overflow : auto;
+overflow-x : hidden;
+max-height : 650px;
+position : absolute;
+}
+.kucuk {
+width : 100px;
+height : 80px;
+position : absolute;
+left : 0;
+}
+#buyuk {
+max-width : 800px;
+max-height : 400px;
+min-height : 380px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="/script/jquery-3.2.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('img.kucuk').hover(function () {
+                    $('#buyuk').attr("src", $(this).attr("src"));
+                });
+                //hover yerine click de yazabilir
+            }); 
+        </script>
+    <meta charset="UTF-8">
+    <title>Istanbul Historical Places Photos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div ID="head">
+        <div style="left: 80px; top: 20px; position: absolute">
+            <h1>
+                <a id="left_top" href="index.html" >KNOWING ISTANBUL</a></h1>
+        </div>
+        <div style="left: 92px;width: 167px;top: 120px;position: absolute">
+            <h2>One of the Most Beautiful City in the World</h2>
+        </div>
+        <div id="banner">
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="landscapes.html">Landscapes</a></li>
+                <li><a href="historical.html">Historical Places</a></li>
+                <li><a href="Entertainment.html">Entertainment</a></li>
+                <li><a href="food.html">Food</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div style="position: absolute;top: 50%;left: 25%; margin: auto">
+    
+    <img src="images/historical/2.jpg" alt="historical1" id="buyuk"><br />
+    <img class="kucuk" style="left:-200px;" src="images/historical/2.jpg" alt="historic2" >
+    <img class="kucuk" style="left:-100px;" src="images/historical/3.jpg" alt="historic3" >
+    <img class="kucuk" style="left:0px" src="images/historical/4.jpg" alt="historic4" >
+    <img class="kucuk" style="left:100px" src="images/historical/5.jpg" alt="historic5" >
+    <img class="kucuk" style="left:200px" src="images/historical/6.jpg" alt="historic6" >
+    <img class="kucuk" style="left:300px" src="images/historical/7.jpg" alt="historic7" >
+    <img class="kucuk" style="left:400px" src="images/historical/8.jpg" alt="historic8" >
+    <img class="kucuk" style="left:500px" src="images/historical/9.jpg" alt="historic9" >
+    <img class="kucuk" style="left:600px" src="images/historical/10.jpg" alt="historic10" >
+    <img class="kucuk" style="left:700px" src="images/historical/11.jpg" alt="historic11" >
+
+</div>
+
+<div style="width:100%; height: 100px; margin-top:780px; margin-left:90px;margin-right: 170px; margin-bottom: 80px">
+    <p class="font1" style="margin-right: 10%; margin-top: 850px">
+        <span style="font-family: open sans,sans-serif;">
+            Istanbul has hosted many civilizations. For this reason, its historical heritage is strong and varied.
+        </span>
+    </p>
+</div>
+<div style="width: 100%; height: 10px; background-color: #bf20b3; position:absolute; top: 1140px;left:0px; margin-top:10px"  >
+</div>
+
+<footer>
+    <div id="foot">
+        <div style="left:50px; top: 100px; position: absolute;font-family: sans-serif; font-feature-settings: initial; font-weight: 900; font-size: 19px; color: blueviolet;">
+            <p>project_webpage@udacity.com</p>
+        </div>
+        <div style="left:600px; top: 50px; position: absolute">
+            <div>
+                <img class="small " src="images/index/twitter.png" alt="Twitter">
+            </div>
+            <div>
+                <img class="small" src="images/index/google.jpg" alt="Google+">
+            </div>
+            <div>
+                <img class="small" src="images/index/fb.png" alt="Facebook">
+            </div>
+        </div>
+        <div style="left:950px; top: 65px; position: absolute; font-family: fantasy; font-feature-settings: initial; font-weight: 900; font-size: 19px; color: blueviolet;">
+            <p>@2017</p>
+            <p>Proudly created by Bahadir.</p>
+        </div>
+    </div>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="/script/jquery-3.2.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('img.kucuk').hover(function () {
+                    $('#buyuk').attr("src", $(this).attr("src"));
+                });
+                //hover yerine click de yazabilir
+            });
+ 
+        </script>
+    <meta charset="UTF-8">
+    <title>Istanbul Entertainment Life Photos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div ID="head">
+        <div style="left: 80px; top: 20px; position: absolute">
+            <h1>
+                <a id="left_top" href="index.html" >KNOWING ISTANBUL</a></h1>
+        </div>
+        <div style="left: 92px;width: 167px;top: 120px;position: absolute">
+            <h2>One of the Most Beautiful City in the World</h2>
+        </div>
+        <div id="banner">
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="landscapes.html">Landscapes</a></li>
+                <li><a href="historical.html">Historical Places</a></li>
+                <li><a href="Entertainment.html">Entertainment</a></li>
+                <li><a href="food.html">Food</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div style="position: absolute;top: 50%;left: 25%; margin: auto">
+    
+    <img src="images/entertainment/1.jpg" alt="entertainment1" id="buyuk"><br />
+    <img class="kucuk" style="left:-200px;" src="images/entertainment/1.jpg" alt="entertainment1" >
+    <img class="kucuk" style="left:-100px;" src="images/entertainment/2.jpg" alt="entertainment2" >
+    <img class="kucuk" style="left:0px" src="images/entertainment/3.jpg" alt="entertainment3" >
+    <img class="kucuk" style="left:100px" src="images/entertainment/4.jpg" alt="entertainment4" >
+    <img class="kucuk" style="left:200px" src="images/entertainment/5.jpg" alt="entertainment5" >
+    <img class="kucuk" style="left:300px" src="images/entertainment/6.jpg" alt="entertainment6" >
+    <img class="kucuk" style="left:400px" src="images/entertainment/7.jpg" alt="entertainment7" >
+    <img class="kucuk" style="left:500px" src="images/entertainment/8.jpg" alt="entertainment8" >
+    <img class="kucuk" style="left:600px" src="images/entertainment/9.jpg" alt="entertainment9" >
+    <img class="kucuk" style="left:700px" src="images/entertainment/10.jpg" alt="entertainment10" >
+
+</div>
+
+<div style="width:100%; height: 100px; margin-top:780px; margin-left:90px;margin-right: 170px; margin-bottom: 80px">
+    <p class="font1" style="margin-right: 10%; margin-top: 850px">
+        <span style="font-family: open sans,sans-serif;">
+            Istanbul is the meeting place of cultures. This multiculture also offers all kinds of entertainment.
+            Having fun for those arriving in Istanbul is just a matter of choice.
+        </span>
+    </p>
+</div>
+<div style="width: 100%; height: 10px; background-color: #bf20b3; position:absolute; top: 1140px;left:0px; margin-top:10px"  >
+</div>
+
+
+<footer>
+    <div id="foot">
+        <div style="left:50px; top: 100px; position: absolute;font-family: sans-serif; font-feature-settings: initial; font-weight: 900; font-size: 19px; color: blueviolet;">
+            <p>project_webpage@udacity.com</p>
+        </div>
+        <div style="left:600px; top: 50px; position: absolute">
+            <div>
+                <img class="small " src="images/index/twitter.png" alt="Twitter">
+            </div>
+            <div>
+                <img class="small" src="images/index/google.jpg" alt="Google+">
+            </div>
+            <div>
+                <img class="small" src="images/index/fb.png" alt="Facebook">
+            </div>
+        </div>
+        <div style="left:950px; top: 65px; position: absolute; font-family: fantasy; font-feature-settings: initial; font-weight: 900; font-size: 19px; color: blueviolet;">
+            <p>@2017</p>
+            <p>Proudly created by Bahadir.</p>
+        </div>
+    </div>
+
+</footer>
+
+</body>
+</html>
